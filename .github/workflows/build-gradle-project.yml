@@ -5,7 +5,7 @@ on:
 
 jobs:
   build-gradle-project:
-    runs-on: macos-12
+    runs-on: macos-11
     steps:
       - name: Checkout project sources
         uses: actions/checkout@v4
